@@ -1,4 +1,4 @@
-sqlite3.buildout
+buildout.sqlite3
 ================
 
 Configuración de buildout para el compilar e instalar SQLite3
@@ -31,15 +31,13 @@ Para ejecutar la base de datos SQLite3, ejecute el siguiente comando: ::
 
   ./bin/sqlite3
 
-SQLite3 en Python
+SQLite3 en Pytho
 =================
 
-Para manipular la base de datos SQLite3 en lenguaje programacion Python, ejecute el siguiente comando: ::
+Para manipular la base de datos SQLite3 en lenguaje programación Python, ejecute el
+siguiente comando: ::
 
   ./bin/ipy-sqlite
   >>> from pysqlite2 import dbapi2 as sqlite3
   >>> sqlite3.sqlite_version
   '3.8.2'
-
-  
-
