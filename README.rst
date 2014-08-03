@@ -31,7 +31,7 @@ Para ejecutar la base de datos SQLite3, ejecute el siguiente comando: ::
 
   ./bin/sqlite3
 
-SQLite3 en Pytho
+SQLite3 en Python
 =================
 
 Para manipular la base de datos SQLite3 en lenguaje programación Python, ejecute el
